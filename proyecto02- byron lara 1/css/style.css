@@ -1,0 +1,254 @@
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+body{
+
+background-color: teal;
+
+}
+
+header{
+
+display: flex;
+justify-content: space-around;
+background-color: whitesmoke;
+
+}
+
+ul{
+
+display: flex;
+justify-content: space-around;
+list-style: none;
+width: 50%;
+align-items: center;
+font-size: 20px;
+font-style: italic;
+flex-wrap: wrap;
+
+}
+
+img{
+
+width: 100%;
+
+}
+
+picture{
+
+width: 5%;
+
+}
+
+.principal{
+
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+margin-top: 60px;
+margin: 20px;
+
+}
+
+.card1{
+
+border: 3px solid black;
+background-image: url(../img/montañas-e1543190126108.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 80px;
+padding-bottom: 100px;
+width: 25%;
+
+}
+
+.principal p{
+
+border: 3px solid white;
+padding: 10px;
+text-align: center;
+font-size: 20px;
+
+}
+
+.gallery{
+display: flex;
+justify-content: center;
+width: 100%;
+padding: 20px;
+      
+    
+}
+
+.item {
+position: relative;
+background-color: #ccc;
+padding-bottom: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.item.large {
+background-image: url(../img/montañas-e1533762816593.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 30%;
+margin: 5px;
+border: 1px solid gray;
+
+}
+
+.item.large2 {
+background-image: url(../img/montañas-e1533762816593.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 30%;
+margin: 5px;
+border: 1px solid gray;
+}
+
+.contenedorcards2{
+width: 33%;           
+display: flex;
+flex-direction: column;
+gap: 1%;
+   
+} 
+
+.card3{
+border: 1px solid gray;
+width: 100%;
+display:flex;
+position: relative;
+align-items: end;
+background-color: rgb(255, 255, 255);
+margin-bottom: 10px;
+}
+    
+.card4{
+border: 1px solid gray;
+width: 100%;
+position: relative;
+display:flex;
+align-items: end;
+background-color: rgb(255, 255, 255);
+}
+
+.card3 p{
+position: absolute; 
+background-color: #4a5b63;
+color: white;
+padding: 10px;
+font-size: 0.8rem;
+width: 90%;
+margin: 0 5%;
+border-radius: 5px;
+text-align: center;
+}
+    
+.card4 p{
+position: absolute; 
+background-color: #4a5b63;
+color: white;
+padding: 10px;
+font-size: 0.8rem;
+width: 90%;
+margin: 0 5%;
+border-radius: 5px;
+text-align: center;
+}
+
+.caption {
+position: absolute;
+bottom: 0;
+background-color: #4a5b63;
+color: white;
+padding: 10px;
+font-size: 0.8rem;
+width: 90%;
+margin: 0 5%;
+border-radius: 5px;
+text-align: center;
+}
+
+button{
+
+padding: 15px;
+background-color: black;
+color: white;
+position: fixed;
+bottom: 10px;
+left: 91%;
+}
+
+button:hover{
+
+background-color: orange;
+
+}
+
+.principal p:hover{
+
+background-color: aqua;
+color: black;
+
+}
+
+.item:hover{
+
+box-shadow: 4px 4px 4px aqua;
+
+}
+
+
+.card3:hover{
+
+box-shadow: 4px 4px 4px red;
+
+}
+
+.card4:hover{
+
+box-shadow: 4px 4px 4px red;
+
+}
+
+.caption:hover{
+
+background-color: white;
+color: black;
+
+
+}
+
+.ani:hover{
+
+background-color: white;
+color: black;
+
+}
+
+@media (width <= 800px) {
+    
+.fondo{
+
+background-color: antiquewhite;
+
+}
+    
+}
+
+
+
+
+
+
+

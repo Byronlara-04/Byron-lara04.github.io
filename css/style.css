@@ -1,0 +1,144 @@
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+
+}
+
+.cuerpo{
+
+background-color: aliceblue;
+
+}
+
+.logo{
+
+font-size: 150px;
+
+}
+
+.contenedor{
+
+padding-bottom: 100px;
+
+}
+
+.contenedor2{
+
+padding-bottom: 100px;
+padding: 100px;
+
+}
+
+
+.proye1{
+
+background-image: url(../img/s-l1600.jpg);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+padding: 100px;
+
+}
+
+.proye2{
+
+background-image: url(../img/imagen-articulo-flexbox.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+padding: 100px;
+}
+
+.proye3{
+
+background-image: url(../img/disposicion-articulos-viaje-angulo-alto.jpg);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+padding: 100px;
+
+}
+
+.proye1:hover{
+ 
+opacity: 50%;
+
+}
+
+.proye2:hover{
+ 
+opacity: 50%;
+
+}
+
+.proye3:hover{
+ 
+opacity: 50%;
+
+}
+
+.boton{
+
+opacity: 0%;
+
+}
+
+.boton:hover{
+
+opacity: 100%;
+color: red;
+background-color: white;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+.caja1{
+
+margin: 70px;
+
+}
+
+.negro{
+
+color: black;
+font-size: 25px;
+
+}
+
+.carro{
+
+margin: 40px;
+
+}
+
+.lista{
+
+display: flex;
+justify-content: center;
+background-color: black;
+
+}
+
+.lista li{
+
+margin: 10px;
+font-size: 40px;
+color: white;
+
+}
+
+.flotante{
+
+background-color: white;
+margin-left: 40px;
+margin-right: 40px;
+position: relative;
+bottom: 45px;
+
+}
+
+

@@ -1,0 +1,185 @@
+body{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+background-color: whitesmoke;
+
+}
+
+header{
+
+display: flex;
+justify-content: space-between;
+background-color: whitesmoke;
+
+
+
+}
+
+
+#sec1{
+
+margin-left: 30px;
+    
+}
+
+#sec2{
+
+display: flex;
+
+}
+
+#sec3{
+
+display: flex;
+margin-right: 30px;
+
+}
+
+.ps{
+
+margin: 15px;
+    
+}
+
+nav{
+
+display: flex;
+background-color: black;
+justify-content: space-around;
+
+}
+
+
+h1{
+
+color: white;
+font-size: 50px;
+
+}
+
+
+#sec4{
+
+padding-top: 80px;
+
+}
+
+img{
+
+width: 100%;
+object-fit: fill;
+padding-top: 10px;
+
+}
+
+.seccard{
+
+display: flex;
+justify-content: space-around;
+border-radius: 15px;
+background-color: white;
+margin: 20px;
+margin-top: 60px;
+
+}
+
+main{
+
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+
+}
+
+div{
+
+width: 50%;
+
+}
+
+.text{
+
+padding: 30px;
+
+}
+
+.fecha{
+
+color: grey;
+
+}
+
+
+button{
+
+border-radius: 20px;
+background-color: black;
+color: white;
+font-size: 16px;  
+padding: 5px 20px;  
+border: none;
+margin-left: 50px;
+    
+}
+
+#main2{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.botones{
+
+border-radius: 15px;
+background-color: black;
+color: white;
+padding: 40px;
+margin-bottom: 20px;
+text-align: center;
+margin-left: 10%;
+padding-right: 20%;
+padding-bottom: 5%;
+
+
+}
+
+#secp{
+
+width: 55%;
+margin-left: 20px;
+
+
+}
+
+#secul{
+
+
+margin-top: 20px;
+width: 40%;
+margin-right: 35px;
+
+
+}
+
+iframe{
+
+width: 100%;
+
+}
+
+#divmap{
+
+width: 100%;
+
+}
+
+.texin{
+
+margin-left: 20%;
+
+}
+
+

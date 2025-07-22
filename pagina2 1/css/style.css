@@ -1,0 +1,284 @@
+body{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+header{
+
+margin: 40px;
+background-image: url(../img/adventure-1850912_1920.jpg);
+padding: 50px;
+
+
+}
+
+.sec1{
+
+background-color: black;
+color: white;
+flex-wrap: wrap;
+
+}
+
+.ul1{
+
+display: flex;
+justify-content: start;
+list-style: none;
+flex-wrap: wrap;
+
+}
+
+li{
+
+margin: 20px;
+font-size: 20px;
+
+}
+
+.gris{
+
+color: grey;
+
+}
+
+.sec2{
+
+width: 40%;  
+margin-top: 10%;  
+
+}
+
+.sec2 h1{
+
+font-size: 40px;
+
+}
+
+.sec2 p{
+
+font-size: 20px;
+
+}
+
+.sec2 button{
+
+background-color: rgb(23, 114, 200);
+color: white;
+border-radius: 15px;
+padding: 15px;
+
+}
+
+main{
+
+margin: 40px;
+
+}
+
+.div1{
+
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+
+.circle{
+
+width: 80px;
+height: 80px;
+border-radius: 100%;
+background-color: gray;
+
+
+
+}
+
+.container{
+
+display: flex;
+justify-content: center;
+
+}
+
+.div1 section{
+
+width: 30%;
+text-align: center;
+margin: 10px;
+
+}
+
+.div1 p{
+
+font-size: 20px;
+
+}
+
+.div1 h2{
+
+font-size: 30px;
+
+}
+
+.div1 button{
+
+padding: 10px;
+
+}
+
+.div2{
+
+display: flex;
+margin: 40px;
+margin-bottom: 40px;
+
+}
+
+.div3{
+
+display: flex;
+margin: 40px;
+margin-bottom: 40px;
+
+}
+
+.div4{
+
+display: flex;
+margin: 40px;
+margin-bottom: 40px;
+
+}
+
+.text h1{
+
+font-size: 40px;
+
+}
+
+.text p{
+
+font-size: 30px;
+
+}
+span{
+
+color: grey;
+
+}
+
+.div2 section{
+
+width: 100%;
+
+}
+
+.div3 section{
+
+width: 100%;
+
+}
+
+.div4 section{
+
+width: 100%;
+
+}
+
+img{
+
+width: 80%;
+
+}
+
+footer{
+
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+}
+
+.ul2{
+
+display: flex;
+justify-content: start;
+list-style: none;
+
+}
+
+.azul{
+
+color: blue;
+
+}
+
+footer p{
+
+margin-top: 40px;
+margin-right: 40px;
+font-style: italic;
+font-size: 20px;
+
+}
+
+.cuadrado{
+
+background-color: blue;
+height: 100px;
+width: 100px;
+
+}
+
+.contenedor{
+
+display: flex;
+justify-content: end;
+margin-right: 40px;
+
+}
+
+.cuadrado:hover{
+
+transform: rotate(800deg);
+transition-duration: 3s;
+
+
+}
+
+@media (width <= 1000px) {
+
+    .div2{
+
+        flex-direction: column-reverse;
+
+    }
+    
+}
+
+@media (width <= 1000px) {
+
+    .div3{
+
+        flex-direction: column;
+
+    }
+    
+}
+
+@media (width <= 1000px) {
+
+    .div4{
+
+        flex-direction: column-reverse;
+
+    }
+    
+}
+
+
+
